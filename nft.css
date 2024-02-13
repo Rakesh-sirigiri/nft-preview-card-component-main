@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Roboto:wght@100&display=swap');
+/* font-family: 'Outfit', sans-serif; */
+/* font-family: 'Roboto', sans-serif; */ 
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+ .nft{
+    width: 300px;
+    padding: 20px;
+    margin: 10px;
+    background-color:hsl(217, 54%, 11%);
+    
+}
+.nft img{
+    height: 300px;
+}
+.index img , .hello img{
+    height: 30px;
+}
+.name{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 15px;
+}
+.index , .hello{
+    display: flex;
+    align-items: center;
+}
+.bottom img{
+    height: 20px;
+}
+.nft h1{
+    color: hsl(0, 0%, 100%);
+}
+.nft p{
+    color: hsl(215, 51%, 70%);
+}
+.index p{
+    color:hsl(178, 100%, 50%);
+}
+.bottom p a{
+    color:#fff;
+} 
